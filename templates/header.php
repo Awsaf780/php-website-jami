@@ -64,6 +64,12 @@
 <nav class="brand z-depth-0">
 	<div class="container brand-text">
 
+		<!-- <ul id="nav-mobile" class="brand left">
+			<li><a href="index.php" class="brand-logo white-text"><img src="logo.png" alt="Flare" style="width:40px;height:40px;border:0;"></a></li>
+		</ul>
+
+		 -->
+
 		<ul id="nav-mobile" class="brand left">
 			<li><a href="index.php" class="brand-logo white-text">Flare</a></li>
 		</ul>
@@ -82,7 +88,7 @@
 		</ul>
 
 		<ul id="nav-mobile" class="brand right">
-			<li><a href="#" class="brand">Attendance</a></li>
+			<li><a href="attendance.php" class="brand">Attendance</a></li>
 		</ul>
 
 		<ul id="nav-mobile" class="brand right">

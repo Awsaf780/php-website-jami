@@ -1,6 +1,6 @@
 <?php 
 	
-	$conn = mysqli_connect('localhost', 'awsaf', '3265', 'awsaf_personal');
+	$conn = mysqli_connect('localhost', 'awsaf', '3265', 'jami');
 
 	if(!$conn)
 	{

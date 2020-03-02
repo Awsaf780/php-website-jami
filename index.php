@@ -49,10 +49,15 @@
 
 
 
-<div class="container">
+<div class="container center">
+
+    <ul id="nav-mobile" class="center
+    ">
+      <li><a href="#" class="btn brand z-depth-1">Add Attendance</a></li>
+    </ul>
 
     <ul id="nav-mobile" class="center">
-      <li><a href="#" class="btn brand z-depth-1">Check-In</a></li>
+      <li><a href="#" class="btn brand z-depth-1">Add Test Marks</a></li>
     </ul>
 
 </div>
