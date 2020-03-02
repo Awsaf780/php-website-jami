@@ -17,7 +17,6 @@
   }
   .curved-div h2 {
       font-size: 6rem;
-      /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
       margin-top: 0;
   }
   .curved-div p {
@@ -58,5 +57,5 @@
 
 </div>
 
-
+<?php include 'templates/footer.php'; ?>
 </html>
