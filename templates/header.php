@@ -1,69 +1,95 @@
 <?php 
 	include('config/db_connect.php');
-
-	$sql = "SELECT balance FROM bkash_doc ORDER BY serial_id DESC LIMIT 1";
-		$result = mysqli_query($conn, $sql);
-		$balance = mysqli_fetch_assoc($result);
-
-
  ?>
+
 <head>
-	<title>bKash Database</title>
+	<title>Flare Database</title>
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 		<!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	  <!-- Compiled and minified CSS -->
+   	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 <style type="text/css">
 	.brand{
-		background: #e6005c !important;
-	}
-	.custom_color{
-		background: #e6005c !important;
+		background: #ff471a !important;
 	}
 	.brand-text{
-		color: #e6005c !important;
+		color: #ff471a !important;
 	}
-	.custom_color-text{
-		color: #ff6699 !important;
-	}
+
 	form{
-		max-width: 460px;
+		max-width: 450px;
 		margin: 20px auto;
 		padding: 20px;
 	}
 
-body {
-
-  background-image: url('images/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
+	.curved-div {
+  		background: #ff471a;
+  		color: #FFF;
+  		text-align: center;
+	}
+	.curved-div h2 {
+  		font-size: 6rem;
+  		/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+  		margin-top: 0;
+	}
+	.curved-div p {
+  		font-size: 1rem;
+  		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  		margin: 0 5rem 0 5rem;
+	}
+	.curved-div svg {
+  		display: block;
+	}
 
 </style>
 
 </head>
-<body class="black">
-	<div style="background-image: url('images/background.jpg') filter: blur(8px) -webkit-filter: blur(8px)"></div>
+<body class="white">
 
-<nav class="black z-depth-4">
+
+<nav class="brand z-depth-0">
 	<div class="container brand-text">
-		<ul id="nav-mobile" class="left hide-on-small-and-down">
-			<li><a href="index.php" class="brand-logo brand-text">bKash Database</a></li>
+
+		<ul id="nav-mobile" class="brand left">
+			<li><a href="index.php" class="brand-logo white-text">Flare</a></li>
 		</ul>
 		
-		<ul id="nav-mobile" class="right hide-on-small-and-down">
-			<li>Current Balance : <?php echo htmlspecialchars($balance['balance']); ?> BDT</li>
+		<ul id="nav-mobile" class="brand right">
+			<div class="dropdown">
+  				<button type="button" class="brand btn btn-primary dropdown-toggle" data-toggle="dropdown">Materials </button>
+  					<div class="dropdown-menu">
+   						 <a class="dropdown-item" href="class1.php">Class 1</a>
+    		   			 <a class="dropdown-item" href="class2.php">Class 2</a>
+   						 <a class="dropdown-item" href="class3.php">Class 3</a>
+   						 <a class="dropdown-item" href="class4.php">Class 4</a>
+   						 <a class="dropdown-item" href="class5.php">Class 5</a>
+  					</div>
+			</div>
 		</ul>
+
+		<ul id="nav-mobile" class="brand right">
+			<li><a href="#" class="brand">Attendance</a></li>
+		</ul>
+
+		<ul id="nav-mobile" class="brand right">
+			<li><a href="#" class="brand">Grades</a></li>
+		</ul>
+
+
 
 
 	</div>
