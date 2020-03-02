@@ -57,7 +57,7 @@
     </ul>
 
     <ul id="nav-mobile" class="center">
-      <li><a href="#" class="btn brand z-depth-1">Add Test Marks</a></li>
+      <li><a href="add_marks.php" class="btn brand z-depth-1">Add Test Marks</a></li>
     </ul>
 
 </div>

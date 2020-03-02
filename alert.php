@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
 <body>
 
   <div class="alert alert-danger alert-dismissible fade show center">

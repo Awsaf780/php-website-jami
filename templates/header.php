@@ -91,7 +91,7 @@
 		</ul>
 
 		<ul id="nav-mobile" class="brand right">
-			<li><a href="#" class="brand">Grades</a></li>
+			<li><a href="grade.php" class="brand">Grades</a></li>
 		</ul>
 
 
