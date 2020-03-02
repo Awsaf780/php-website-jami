@@ -71,28 +71,31 @@
 		 -->
 
 		<ul id="nav-mobile" class="brand left">
-			<li><a href="index.php" class="brand-logo white-text">Flare</a></li>
+				<li><a href="index.php" class="white-text"><h5><b>Flare</b></h5></a></li>
+
+  			
 		</ul>
 		
 		<ul id="nav-mobile" class="brand right">
-			<div class="dropdown">
-  				<button type="button" class="brand btn btn-primary dropdown-toggle" data-toggle="dropdown">Materials </button>
+			<div class="container">
+				<div class="dropdown">
+  				<button type="button" class="brand btn btn-primary dropdown-toggle" data-toggle="dropdown">Resource</button>
   					<div class="dropdown-menu">
-   						 <a class="dropdown-item" href="class1.php">Mathematics</a>
-    		   			 <a class="dropdown-item" href="class2.php">Science</a>
-   						 <a class="dropdown-item" href="class3.php">Literature</a>
-   						 <a class="dropdown-item" href="class4.php">History</a>
+   						 <a class="dropdown-item" href="grade.php">Grades</a>
+    		   			 <a class="dropdown-item" href="attendance.php">Attendance</a>
   					</div>
 			</div>
+			</div>
+			
 		</ul>
 
-		<ul id="nav-mobile" class="brand right">
+		<!-- <ul id="nav-mobile" class="brand right">
 			<li><a href="attendance.php" class="brand">Attendance</a></li>
 		</ul>
 
 		<ul id="nav-mobile" class="brand right">
 			<li><a href="grade.php" class="brand">Grades</a></li>
-		</ul>
+		</ul> -->
 
 
 
