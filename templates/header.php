@@ -78,11 +78,10 @@
 			<div class="dropdown">
   				<button type="button" class="brand btn btn-primary dropdown-toggle" data-toggle="dropdown">Materials </button>
   					<div class="dropdown-menu">
-   						 <a class="dropdown-item" href="class1.php">Class 1</a>
-    		   			 <a class="dropdown-item" href="class2.php">Class 2</a>
-   						 <a class="dropdown-item" href="class3.php">Class 3</a>
-   						 <a class="dropdown-item" href="class4.php">Class 4</a>
-   						 <a class="dropdown-item" href="class5.php">Class 5</a>
+   						 <a class="dropdown-item" href="class1.php">Mathematics</a>
+    		   			 <a class="dropdown-item" href="class2.php">Science</a>
+   						 <a class="dropdown-item" href="class3.php">Literature</a>
+   						 <a class="dropdown-item" href="class4.php">History</a>
   					</div>
 			</div>
 		</ul>

@@ -19,8 +19,8 @@
 <div id="accordion">
 
     <div class="card">
-      	<div class="card-header center">
-        	<a class="collapsed card-link center" data-toggle="collapse" href="#collapseOne1">Month A</a>
+      	<div class="card-header center brand">
+        	<a class="collapsed card-link center white-text" data-toggle="collapse" href="#collapseOne1">Month A</a>
      	</div>
 
     <div id="collapseOne1" class="collapse" data-parent="#accordion">
@@ -69,8 +69,8 @@
 
 
     <div class="card">
-      	<div class="card-header center">
-        	<a class="collapsed card-link center" data-toggle="collapse" href="#collapseOne2">Month B</a>
+      	<div class="card-header center brand">
+        	<a class="collapsed card-link center white-text" data-toggle="collapse" href="#collapseOne2">Month B</a>
      	</div>
 
     <div id="collapseOne2" class="collapse" data-parent="#accordion">
@@ -118,8 +118,8 @@
 
 
     <div class="card">
-      	<div class="card-header center">
-        	<a class="collapsed card-link center" data-toggle="collapse" href="#collapseOne3">Month C</a>
+      	<div class="card-header center brand">
+        	<a class="collapsed card-link center white-text" data-toggle="collapse" href="#collapseOne3">Month C</a>
      	</div>
 
     <div id="collapseOne3" class="collapse" data-parent="#accordion">
@@ -167,8 +167,8 @@
 
 
     <div class="card">
-      	<div class="card-header center">
-        	<a class="collapsed card-link center" data-toggle="collapse" href="#collapseOne4">Month D</a>
+      	<div class="card-header center brand">
+        	<a class="collapsed card-link center white-text" data-toggle="collapse" href="#collapseOne4">Month D</a>
      	</div>
 
     <div id="collapseOne4" class="collapse" data-parent="#accordion">
