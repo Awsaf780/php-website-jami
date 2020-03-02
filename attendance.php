@@ -219,5 +219,15 @@
 
 	
 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="container center">
+
+    <ul id="nav-mobile" class="center">
+      <li><a href="add_attendance.php" class="btn brand z-depth-1">Add Attendance</a></li>
+    </ul>
+</div>
+
 </body>
 </html>

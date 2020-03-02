@@ -50,10 +50,9 @@
 
 
 
-<div class="container center">
+<!-- <div class="container center">
 
-    <ul id="nav-mobile" class="center
-    ">
+    <ul id="nav-mobile" class="center">
       <li><a href="add_attendance.php" class="btn brand z-depth-1">Add Attendance</a></li>
     </ul>
 
@@ -61,7 +60,7 @@
       <li><a href="grade.php" class="btn brand z-depth-1">Add Test Marks</a></li>
     </ul>
 
-</div>
+</div> -->
 
 <br><br><br>
 <?php include 'templates/footer.php'; ?>
