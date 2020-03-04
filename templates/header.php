@@ -2,6 +2,7 @@
 	include('config/db_connect.php');
  ?>
 
+
 <head>
 	<title>Flare Database</title>
 
@@ -22,40 +23,7 @@
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<style type="text/css">
-	.brand{
-		background: #ff471a !important;
-	}
-	.brand-text{
-		color: #ff471a !important;
-	}
-
-	form{
-		max-width: 450px;
-		margin: 20px auto;
-		padding: 20px;
-	}
-
-	.curved-div {
-  		background: #ff471a;
-  		color: #FFF;
-  		text-align: center;
-	}
-	.curved-div h2 {
-  		font-size: 6rem;
-  		/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
-  		margin-top: 0;
-	}
-	.curved-div p {
-  		font-size: 1rem;
-  		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  		margin: 0 5rem 0 5rem;
-	}
-	.curved-div svg {
-  		display: block;
-	}
-
-</style>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
 
 </head>
 <body class="white">

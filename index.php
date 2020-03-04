@@ -6,29 +6,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="styles/svg.css">
 
-
-<style type="text/css">
-
-  .curved-div {
-      background: #ff471a;
-      color: #FFF;
-      text-align: center;
-  }
-  .curved-div h2 {
-      font-size: 6rem;
-      margin-top: 0;
-  }
-  .curved-div p {
-      font-size: 1rem;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin: 0 5rem 0 5rem;
-  }
-  .curved-div svg {
-      display: block;
-  }
-
-</style>
 </head>
 <?php include 'templates/header.php'; ?>
 <body>
